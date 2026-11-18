@@ -1,8 +1,7 @@
-# 🎮 CodeQuest
+# 🎮 CodeGame
 
 Un jeu interactif pour **apprendre à coder et à raisonner en jouant**. Le joueur s'inscrit, puis résout des défis de plus en plus difficiles : écrire du code JavaScript, répondre à des énigmes de logique et expliquer comment résoudre un problème.
 
-Tout fonctionne dans le navigateur, **sans serveur ni installation** : un seul fichier HTML (HTML + CSS + JavaScript pur).
 
 ## Sommaire
 
@@ -13,8 +12,7 @@ Tout fonctionne dans le navigateur, **sans serveur ni installation** : un seul f
 - [Comment ça marche](#comment-ça-marche)
 - [Ajouter un niveau](#ajouter-un-niveau)
 - [Limites connues](#limites-connues)
-- [Pistes d'amélioration](#pistes-damélioration)
-- [Auteur](#auteur)
+
 
 ## Fonctionnalités
 
@@ -37,7 +35,7 @@ Tout fonctionne dans le navigateur, **sans serveur ni installation** : un seul f
 
 ## Démarrage rapide
 
-1. Récupère le fichier `jeu-code.html` (tu peux le renommer `index.html`).
+1. Récupère le dépôt contenant le ficher html et js.
 2. Ouvre-le dans un navigateur moderne (Chrome, Firefox, Edge, Safari) en double-cliquant dessus.
 
 Pour le tester comme sur un vrai site, tu peux aussi lancer un petit serveur local :
@@ -55,7 +53,7 @@ Puis ouvre `http://localhost:8000`.
 ## Structure du projet
 
 ```
-codequest/
+codeGame/
 ├── index.html  # structure (HTML), style (CSS)
 |-- script.js   # logique (JS)
 └── README.md
